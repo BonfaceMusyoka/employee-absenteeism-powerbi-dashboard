@@ -136,7 +136,7 @@ Based on the insights derived from the absenteeism data, the following actions a
   Since absenteeism spikes might be predictable, HR could set up alerts or nudges when employees begin to show early signs (like short frequent absences) and intervene early.
 ---
 
-## 📂 What’s Included
+## 📂 Files & Visual Assets
 
 - [`README.md`](./README.md) – Project documentation  
 - [`Absenteeism analysis.pbix`](./Absenteeism%20analysis.pbix) – Power BI report file 
