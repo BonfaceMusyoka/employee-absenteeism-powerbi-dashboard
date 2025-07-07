@@ -70,13 +70,13 @@ The dataset includes three related tables:
 ## 🔍 Dashboard Previews
 
 ### 📄 Page 1 – Executive Summary
-![Executive Summary](images/page1.png)
+![Executive Summary](page1.png)
 
 ### 📄 Page 2 – Behavioral & Demographic Insights
-![Behavioral Insights](images/page2.png)
+![Behavioral Insights](page2.png)
 
 ### 📄 Page 3 – Cost & Trend Analysis
-![Cost Analysis](images/page3.png)
+![Cost Analysis](page3.png)
 
 
 ## 📊 Dashboard Overview
@@ -142,5 +142,5 @@ Based on the insights derived from the absenteeism data, the following actions a
 - `absenteeism-dashboard.pbix`  
 - `images/` folder with 3 report page screenshots
   
-Fixed image paths in README
+
 
