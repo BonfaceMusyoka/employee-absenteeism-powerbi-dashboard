@@ -78,3 +78,66 @@ The dataset includes three related tables:
 ### 📄 Page 3 – Cost & Trend Analysis
 ![Cost Analysis](images/page3.png)
 
+## 📊 Dashboard Overview
+
+### 🟩 Page 1 – Executive Summary
+- KPI Cards: Total Hours, Total Cost, Avg Hours/Employee
+- Bar Chart: Absenteeism by Top Reasons
+- Line Chart: Absenteeism Trend by Month
+- Table: Top 10 Absent Employees
+- Slicers: Month Name, Season Description
+
+### 🟨 Page 2 – Behavioral & Demographic Insights
+- Bar Chart: Smoking Status vs Absenteeism Hours
+- Bar Chart: Drinking Status vs Absenteeism Hours
+- Bar Chart: Absenteeism by Education Level
+- Scatter Plot: BMI vs Absenteeism Hours
+- Slicers: Smoking, Drinking, Education
+
+### 🟦 Page 3 – Cost & Trend Analysis
+- Line Chart: Cost by Month
+- Bar Chart: Cost by Top 5 Reasons
+- Bar Chart: Cost by Season
+- Slicers: Month Name, Season Description
+
+---
+
+## 🧮 Key Measures
+
+| Measure                        | Description |
+|-------------------------------|-------------|
+| `Total Absenteeism Hours`     | Sum of `Absenteeism time in hours` |
+| `Total Absenteeism Cost`      | Product of hours × hourly comp |
+| `Avg Hours per Employee`      | Total hours / unique employee count |
+| `Smoking/Drinking Status`     | Derived from 1/0 columns for clear visuals |
+
+---
+## 📢 Recommendations
+
+Based on the insights derived from the absenteeism data, the following actions are recommended:
+
+- **Implement targeted health programs**  
+  Smoking and drinking behaviors are strongly associated with high absenteeism. The organization should consider offering wellness campaigns, support groups, and health incentives to reduce lifestyle-related absences.
+
+- **Focus on ergonomic and physical wellness initiatives**  
+  Musculoskeletal issues were the leading cause of absence. HR should invest in ergonomic assessments, posture training, and physical wellness programs to prevent such conditions.
+
+- **Address peak absenteeism periods with resource planning**  
+  March and July had the highest absenteeism and cost. These months should be flagged for workforce planning and temporary staffing support.
+
+- **Monitor and support lower-educated staff more closely**  
+  High absenteeism among employees with only a high school education suggests a potential skills, engagement, or awareness gap. Consider additional training, mentorship, or performance support for this group.
+
+- **Track and investigate high-cost reasons**  
+  Diseases, injuries, and consultations account for most costs. A root cause review of workplace conditions, insurance access, or work-life balance policies could yield further insights.
+
+- **Promote early intervention**  
+  Since absenteeism spikes might be predictable, HR could set up alerts or nudges when employees begin to show early signs (like short frequent absences) and intervene early.
+---
+
+## 📂 What’s Included
+
+- `README.md` (this file)  
+- `absenteeism-dashboard.pbix`  
+- `images/` folder with 3 report page screenshots
+
